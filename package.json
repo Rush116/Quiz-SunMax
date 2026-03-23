@@ -1,0 +1,11 @@
+{
+  "name": "quiz-sunmax",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build && python3 -m http.server 4173 -d dist",
+    "build": "tsc --project tsconfig.json && node scripts/build.mjs",
+    "preview": "python3 -m http.server 4173 -d dist"
+  }
+}
