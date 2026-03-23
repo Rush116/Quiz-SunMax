@@ -1,7 +1,5 @@
 {
   "name": "quiz-sunmax",
-{
-  "name": "quiz-sunmax",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -23,8 +21,5 @@
     "tailwindcss": "^3.4.17",
     "typescript": "^5.6.3",
     "vite": "^5.4.11"
-  }
-}
-main
   }
 }
